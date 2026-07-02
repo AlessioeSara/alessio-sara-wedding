@@ -224,3 +224,21 @@ section {
         flex-wrap: wrap;
     }
 }
+#napoli {
+    background: #fff;
+}
+
+#napoli .card {
+    background: #f7f5f2;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 15px;
+    max-width: 650px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+#napoli h3 {
+    margin-bottom: 10px;
+    color: #2c2c2c;
+}
