@@ -162,3 +162,21 @@ section {
 #location {
     background: #f7f5f2;
 }
+#milano {
+    background: #fff;
+}
+
+#milano .card {
+    background: #f7f5f2;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+#milano h3 {
+    margin-bottom: 10px;
+    color: #2c2c2c;
+}
