@@ -42,3 +42,11 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.style.opacity = "1";
     }, 100);
 });
+// RSVP FORM (demo)
+document.querySelector(".rsvp-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    alert("Grazie ❤️ La tua risposta è stata registrata!");
+
+    this.reset();
+});
