@@ -204,3 +204,23 @@ section {
     color: #2c2c2c;
     font-size: 0.9rem;
 }
+@media (max-width: 768px) {
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    #navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #navbar .links a {
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
+
+    #timer {
+        flex-wrap: wrap;
+    }
+}
