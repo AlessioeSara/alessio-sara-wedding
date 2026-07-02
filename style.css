@@ -117,3 +117,48 @@ section {
     color: white;
     padding: 50px 20px;
 }
+/* RSVP */
+#rsvp {
+    background: #fff;
+}
+
+.rsvp-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 30px auto 0;
+}
+
+.rsvp-form input,
+.rsvp-form select,
+.rsvp-form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+.rsvp-form textarea {
+    min-height: 100px;
+    resize: none;
+}
+
+.rsvp-form button {
+    padding: 12px;
+    background: #d4af37;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.rsvp-form button:hover {
+    background: #b8962e;
+}
+
+/* LOCATION */
+#location {
+    background: #f7f5f2;
+}
